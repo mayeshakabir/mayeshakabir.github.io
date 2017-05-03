@@ -5,7 +5,7 @@ body{
 }
 
 .wrap {
-	min-width: 700px;
+	min-width: 500px;
 	width: 90%;
 	background: #000000;
 	position: relative;
@@ -62,9 +62,21 @@ h3 {
 }
 
 a {
-	color: #858ef4; 
-	text-shadow: transparent;
+	color: #858ef4;
+	text-decoration: none;
 	font-family:'Calibri',sans-serif;
+	font-size: 13.5px;
+}
+
+a:hover {
+	color: #ad9361; 
+	font-size: 14.5px;
+}
+
+ul {list-style-image: url(img/star.gif);}
+
+li {
+	margin: 7px;
 }
 
 p {
@@ -72,4 +84,5 @@ p {
 	text-shadow: transparent;
 	font-family:'Arial',sans-serif;
 	font-weight: lighter;
+	font-size: 13px;
 }
