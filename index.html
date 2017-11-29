@@ -1,68 +1,165 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title> Mayesha Kabir </title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-	<h1>Mayesha Kabir</h1>
-	<h2>Computer Science Major at UBC </h2>
-	<br>
-	<br>
-	<div class="wrap">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> mayeshakabir.com </title>
 
-	<div class="about">
-	<h3> <img src="img/cursor.png" height="16"/> About</h3>
-	<p>made this cuz i need a job lmao</p>
-	</div>
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+	</head>
 
+	<body>
+	<!-- project-->
+		<div class="header animated fadeInDown"> 
+			<div class="wrap">
+				<div class="logo">
+					<img src="img/logo.png" class="header-logo">
+				</div>
 
-	<div class="projects">
-	<h3> <img src="img/cursor.png" height="16"/> Projects </h3>
+				<div class="nav">
+					<ul>
+						<li> <a href="#about">about</a> </li>
+						<li> <a href="#games">games</a> </li>
+						<li> <a href="#apps">apps</a> </li>
+						<li> <a href="#design">design</a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-	<ul>
+		<div class="wrap" id="body">
+			
+			<div class="title">
+				<h1><b>MAYESHA</b> KABIR</h1>
+				<img src="img/logo.gif" class="title-logo">
+			</div>
 
-	<dt><p>Applications:</p></dt>
-		<dd>
+			<div class="container">
+				<div class="about animated fadeInDownBig" id="about">
+					<h2><b>A</b>BOUT:</h2>
+					<p>
+						Hey, I'm Mayesha! <br>
+						I am a 3rd Year <b>Computer Science</b> student @ UBC <br> 
+						My interests include game developement, web/graphic design & animation <br>
+						Enjoy my website, a portfolio of my projects! <br>
+					</p>
+				</div>
 
-		<li><a href="app1.html"> Buses'R'Us Andriod App</a></li>
-		<li><a href="app2.html">AddMe Andriod App</a></li>
+				<div class="skills" id="skills"></div>
 
-		</dd>
+				<h2 class="portfolio-title"> <b>P</b>ORTFOLIO: </h2>
+			
+				<div class="games" id="games">
+					<h3 class="dotted"> <b>G</b>AME DEVELOPMENT: </h3>
+					
+					<div id="game1-pic" class="animated">
+						<img src="img/game-icon.png" class="icon"> 
+					</div>
+					<div id="game1-text" class="animated">
+						<h4> Jewel Thief </h4> <br>
+						<p>coming soon!</p> <br>
+						<h5> tools: C#, Unity3d, Adobe Photoshop </h5>
+						<a href="" target="_blank"> <img class="iconImg" src="img/links/play.png"> </a> 
+						<a href="img/gamedesigns.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
+						<a href="https://github.com/mayeshakabir/" target="_blank"> <img class="iconImg" src="img/links/github.png"> </a> 
+					</div>
+					<br>
 
-	<br>
-	<dt><p>Graphic Design Projects:</p></dt>
-		<dd>
+					<div id="game2-pic" class="animated">
+						<img src="img/game2-icon.png" class="icon"> 
+					</div>
+					<div id="game2-text" class="animated">
+						<h4> Untitled </h4> <br>
+						<p>coming soon!</p> <br>
+						<h5> tools: C#, Unity3d, Adobe Photoshop </h5>
+						<a href="" target="_blank"> <img class="iconImg" src="img/links/play.png"> </a> 
+						<a href="img/gamedesigns.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
+						<a href="https://github.com/mayeshakabir/" target="_blank"> <img class="iconImg" src="img/links/github.png"> </a> 
+					</div>
 
-		<li><a href="gra1.html">World Cup 2012 Info Graph</a></li>
-		
-		<li><a href="gra2.html">Alternative Cover Art</a></li>
+				</div>
 
-		</dd>
+				<div class="apps" id="apps">
+					<h3 class="dotted"> <b>A</b>PP DEVELOPMENT: </h3>
+					
+					<div id="app1-pic" class="animated">
+						<img src="img/busesRus-icon.png" class="icon"> 
+					</div>
+					<div id="app1-text" class="animated">
+						<h4> Buses'R Us </h4> <br>
+						<p>An andriod app that tracks user location along with surrounding bus stops, closet marked in green. Selecting a stop will display the bus number and time of arrival along with the different bus routes</p> <br>
+						<h5> tools: Java, JUnit, IntelliJ </h5>
+						<a href="img/busesRus.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
+						<a href="https://github.com/mayeshakabir/busesRus" target="_blank"> <img class="iconImg" src="img/links/github.png"> </a> 
+					</div>
+					<br>
 
+					<div id="app2-pic" class="animated">
+						<img src="img/addMe-icon.png" class="icon">
+					</div>
+					<div id="app2-text" class="animated">
+						<h4> AddMe </h4> <br>
+						<p>An andriod app designed to eliminate the need to switch social media platforms by encompassing them in a single, easily accessible app</p> <br>
+						<h5> tools: Java, Andriod Studio </h5>
+						<a href="img/addMe.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
+						<a href="https://github.com/mayeshakabir/AddMe" target="_blank"> <img class="iconImg" src="img/links/github.png"> </a>
+					</div>
 
-	<br>
-	<dt><p>C++ Stimulations:</p></dt>
-		<dd>
-		
-		<li><p>Coming Soon!</p></li>
+				</div>
 
-		</dd>
+				<div class="design" id="design">
+					<h3  class="dotted"> <b>D</b>ESIGN: </h3>
+					
+					<div id="des1-pic" class="animated">
+						<img src="img/infograph-icon.png" class="icon">
+					</div>
+					<div id="des1-text" class="animated">
+						<h4> Infograph Design </h4> <br>
+						<p>Infograph on the 2014 World Cup Brazil displaying notable players, teams, prize money and budget</p> <br>
+						<h5> tools: Adobe Photoshop, Adobe Illustrator </h5>
+						<a href="img/Infograph.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
+					</div>
 
-	</ul>
-	</div>
+					<br>
+					
+					<div id="des2-pic" class="animated">
+						<img src="img/bookcover-icon.png" class="icon">
+					</div>
+					<div id="des2-text" class="animated">
+						<h4> Alternaive Book Cover </h4> <br>
+						<p>An alternative book cover design for John Green's An Abundance of Katherines</p> <br>
+						<h5> tools: Adobe Photoshop, Adobe Illustrator  </h5>
+						<a href="img/bookcover.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-	<div class="links">
-	<h3> <img src="img/cursor.png" height="16"/> Links</h3>
-	<ul>
+		<div class="footer"> 
+			<div class="wrap">
+				<div class="logo"> 
+					<img src="img/logo.png" class="footer-logo">
+				</div>
 
-	<li><a href="https://github.com/mayeshak" target="_blank"> Github</a></li>
-	<li> <a href="https://www.linkedin.com/in/mayesha-kabir-ab162813a/" target="_blank"> Linkedin </a> </li>
+				<div class="footer-text">&copy; Mayesha Kabir 2017 </div>
 
-	</ul>
-	</div>
+				<div class="nav">
+					<ul>
+						<li> <a href="https://www.github.com/mayeshakabir" target="_blank"> <img class="linkImg" src="img/links/github.png"> </a> </li>
+						<li> <a href="https://www.linkedin.com/in/mayesha-kabir-ab162813a/" target="_blank"> <img class="linkImg" src="img/links/linkedin.png"> </a> </li>
+						<li> <a href="aresume/mayesha-kabir-resume.pdf" target="_blank"> <img class="linkImg" src="img/links/cv.png"> </a> </li>
+						<li> <a href="mailto:mayeshakabir@hotmail.com"> <img class="linkImg" src="img/links/mail.png"> </a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-	</div>
-</body>
+		<!-- scripts -->
+		<script src="ajs/jquery-3.2.1.min.js"> </script>
+		<script src="ajs/jquery.waypoints.min.js"> </script>
+		<script src="ajs/lightbox.js"> </script>
+		<script src="ajs/main.js"> </script>
+	</body>
 </html>
