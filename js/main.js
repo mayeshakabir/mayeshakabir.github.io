@@ -63,48 +63,48 @@ $(document).ready(function(){
  
   $('#game1-text').waypoint(function() {
       $('#game1-text').addClass('fadeInRight');
-  }, { offset: '80%' });
+  }, { offset: '90%' });
 
   $('#game2-text').css('opacity', 0);
  
   $('#game2-text').waypoint(function() {
       $('#game2-text').addClass('fadeInRight');
-  }, { offset: '80%' });
+  }, { offset: '90%' });
 
   $('#app1-text').css('opacity', 0);
  
   $('#app1-text').waypoint(function() {
       $('#app1-text').addClass('fadeInRight');
-  }, { offset: '80%' });
+  }, { offset: '90%' });
  
   $('#app2-text').css('opacity', 0);
  
   $('#app2-text').waypoint(function() {
       $('#app2-text').addClass('fadeInRight');
-  }, { offset: '80%' });
+  }, { offset: '90%' });
 
   $('#app3-text').css('opacity', 0);
  
   $('#app3-text').waypoint(function() {
       $('#app3-text').addClass('fadeInRight');
-  }, { offset: '80%' });
+  }, { offset: '90%' });
  
   $('#des1-text').css('opacity', 0);
  
   $('#des1-text').waypoint(function() {
       $('#des1-text').addClass('fadeInRight');
-  }, { offset: '80%' });
+  }, { offset: '90%' });
  
   $('#des2-text').css('opacity', 0);
  
   $('#des2-text').waypoint(function() {
       $('#des2-text').addClass('fadeInRight');
-  }, { offset: '80%' });
+  }, { offset: '90%' });
  
   $('#des3-text').css('opacity', 0);
  
   $('#des3-text').waypoint(function() {
       $('#des3-text').addClass('fadeInRight');
-  }, { offset: '80%' });
+  }, { offset: '90%' });
  
 });
