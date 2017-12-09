@@ -71,12 +71,21 @@ li {
 }
 
 .title {
-	margin: 100px;
+	padding: 90px;
 	text-align: center;
 }
 .title-logo {
 	height: 100px;
 	padding-top: 10px;
+}
+
+.about-title {
+	text-align: center;
+}
+
+.about {
+	text-align: center;
+	line-height: 170%;
 }
 
 .container {
@@ -85,14 +94,7 @@ li {
 	margin: 0 auto;
 	display:table;
 }
-.about {
-	text-align: center;
-	line-height: 170%;
-}
-
-
 .portfolio-title {
-	padding-top: 80px;
 	text-align: center;
 }
 
@@ -239,7 +241,7 @@ h2 {
 
 h3 {
 	font-family:'Trebuchet MS',sans-serif;
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: lighter;
 	letter-spacing: 3px;
 	transition: .3s ease;
