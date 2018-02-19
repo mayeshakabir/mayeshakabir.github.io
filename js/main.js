@@ -26,10 +26,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
   //ICON FROM LEFT:
   $('#game1-pic').css('opacity', 0);
  
