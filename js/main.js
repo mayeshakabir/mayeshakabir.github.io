@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-  /*
   //BOUNCE ICONS:
   $('.icon').hover(function(){
      $(this).toggleClass('animated bounce');
@@ -11,6 +10,7 @@ $(document).ready(function(){
   });
 
 
+  /*
   //use for loop
   $('#game1-pic').css('opacity', 0);
  
