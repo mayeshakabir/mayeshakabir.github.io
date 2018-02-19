@@ -94,8 +94,45 @@ li {
 	margin: 0 auto;
 	display:table;
 }
+
+
+
+
+
+
+
+
+/* projects */
 .portfolio-title {
 	text-align: center;
+}
+
+.development {
+	line-height: 130%;
+	padding-bottom: 50px;
+}
+
+.design {
+	line-height: 130%;
+	padding-bottom: 50px;
+}
+
+.project {
+  margin-bottom: 24px;
+  display: table;
+}
+
+.project-pic {
+	vertical-align:middle;
+    display:table-cell;
+    width: 25%;
+}
+
+.project-text {
+	vertical-align: middle;
+    display:table-cell;
+    padding-left: 20px;
+    width: 75%;
 }
 
 .icon {
@@ -118,105 +155,12 @@ li {
 }
 
 
-.games {
-	line-height: 130%;
-	padding-bottom: 50px;
-}
-#game1-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-#game1-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
-#game2-pic {
-	height: 130px;
-	vertical-align:middle;
-    display:table-cell;
-}
-#game2-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
-.apps {
-	line-height: 130%;
-	padding-bottom: 50px;
-
-}
-#app1-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-#app1-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
-#app2-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#app2-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-#app3-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#app3-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
 
 
 
-.design {
-	line-height: 130%;
-	padding-bottom: 50px;
-}
-#des1-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
 
-#des1-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
 
-#des2-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#des2-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-#des3-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#des3-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
+/* headers */
 @font-face {
     font-family: 'pixel';
     src: url(fonts/OurQuinny.ttf);
