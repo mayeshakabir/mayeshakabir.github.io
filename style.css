@@ -90,13 +90,16 @@ li {
 
 @media(max-width: 550px) {
   .wrap {
-  	margin: 0 auto;
+  	max-width: 100%
   }
   .container {
     max-width: 100%
   }
   .project {
     display: block;
+  }
+  .project-text {
+    display: none;
   }
 }
 
