@@ -70,6 +70,34 @@ li {
     opacity: 0.7;
 }
 
+
+
+/* containter */
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+/* old containter
+.container {
+	max-width: 600px;
+	padding: 40px;
+	margin: 0 auto;
+	display:table;
+}
+*/
+
+@media(max-width: 550px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+
+
+
+/* title */
 .title {
 	padding: 90px;
 	text-align: center;
@@ -79,6 +107,11 @@ li {
 	padding-top: 10px;
 }
 
+
+
+
+
+/* about */
 .about-title {
 	text-align: center;
 }
@@ -86,17 +119,8 @@ li {
 .about {
 	text-align: center;
 	line-height: 170%;
+	padding-bottom: 40px;
 }
-
-.container {
-	max-width: 600px;
-	padding: 40px;
-	margin: 0 auto;
-	display:table;
-}
-
-
-
 
 
 

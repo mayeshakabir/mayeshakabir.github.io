@@ -9,6 +9,27 @@ $(document).ready(function(){
      $(this).toggleClass('animated bounce');
   });
 
+
+  /*
+  //use for loop
+  $('#game1-pic').css('opacity', 0);
+ 
+  $('#game1-pic').waypoint(function() {
+      $('#game1-pic').addClass('fadeInLeft');
+  }, { offset: '90%' });
+
+  $('#game1-text').css('opacity', 0);
+ 
+  $('#game1-text').waypoint(function() {
+      $('#game1-text').addClass('fadeInRight');
+  }, { offset: '90%' });
+
+
+
+
+
+
+
   //ICON FROM LEFT:
   $('#game1-pic').css('opacity', 0);
  
@@ -106,5 +127,6 @@ $(document).ready(function(){
   $('#des3-text').waypoint(function() {
       $('#des3-text').addClass('fadeInRight');
   }, { offset: '90%' });
+  */
  
 });
