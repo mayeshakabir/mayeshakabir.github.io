@@ -15,7 +15,6 @@ body{
 
 
 
-
 /* header */
 .header {
     top: 0;
@@ -46,7 +45,6 @@ body{
 	margin-left: 30px;
 	padding-bottom: 11px;
 }
-
 
 
 
@@ -82,6 +80,7 @@ body{
 }
 
 
+
 /* containter */
 .container {
 	max-width: 600px;
@@ -114,17 +113,15 @@ body{
 
 
 
-
 /* title */
 .title {
-	padding-top: 150px;
+	padding-top: 160px;
 	text-align: center;
 
 }
 .title-logo {
 	width: 250px;
 }
-
 
 
 
