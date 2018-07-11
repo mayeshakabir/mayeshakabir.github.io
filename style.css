@@ -34,7 +34,7 @@ body{
 	padding-top: 10px;
 }
 
-.nav {
+.navigation {
 	float: right;
 }
 .logo {
@@ -53,7 +53,7 @@ body{
 /* footer */
 .footer {
 	text-align: center;
-	padding-bottom: 100px;
+	padding: 100px;
 }
 
 .footer-text {
@@ -74,32 +74,12 @@ body{
 }
 
 .footer hr {
-	width: 300px;
+	width: 400px;
+	background-color: #ff6600;
+	height: 1px;
+	color: #ff6600;
+	border: none;
 }
-/* old footer
-.footer {
-    bottom: 0;
-    width: 100%;
-    opacity: 1;
-    background-color: rgba(0,0,0,0.1);
-    height: 56px;
-}
-.footer-text {
-	font-family:'Trebuchet MS',sans-serif;
-	font-weight: lighter;
-    font-size: 12px;
-    opacity: 0.5;
-    padding-top: 20px;
-    padding-left: 10px;
-    float: left;
-}
-.footer-logo {
-	padding-top: 15px;
-	height: 25px;
-}
-*/
-
-
 
 
 /* containter */
@@ -137,12 +117,12 @@ body{
 
 /* title */
 .title {
-	padding: 90px;
+	padding-top: 150px;
 	text-align: center;
+
 }
 .title-logo {
-	height: 100px;
-	padding-top: 10px;
+	width: 250px;
 }
 
 
@@ -156,25 +136,33 @@ body{
 .about {
 	text-align: center;
 	line-height: 170%;
-	padding-bottom: 40px;
+	padding: 50px;
 }
 
 
 
+/* portfolio */
+#portfolio {
 
-/* projects */
+}
+
 .portfolio-title {
 	text-align: center;
 }
 
+.experience {
+	line-height: 130%;
+	padding-top: 35px;
+}
+
 .development {
 	line-height: 130%;
-	padding-bottom: 50px;
+	padding-top: 35px;
 }
 
 .design {
 	line-height: 130%;
-	padding-bottom: 50px;
+	padding-top: 35px;
 }
 
 .project {
@@ -198,7 +186,7 @@ body{
 .icon {
 	width: 130px;
 	transition: .3s ease;
-	border-radius: 15px;
+
 }
 .icon:hover {
 	opacity: 0.7;
@@ -227,7 +215,6 @@ h1 {
 	font-family:'pixel',sans-serif;
 	font-size: 30px;
 	font-weight: lighter;
-	padding-top: 100px;
 	letter-spacing: 10px;
 	color: #ff567e;
 }
@@ -267,13 +254,15 @@ h5 {
 	font-family:'Trebuchet MS',sans-serif;
 	font-size: 12px;
 	font-weight: bold;
-	display: inline
+	display: inline;
+	padding-top: 25px;
+
 }
 
 p {
 	font-family:'Trebuchet MS',sans-serif;
 	font-size: 13px;
-	display: inline
+	display: inline;
 }
 
 a {

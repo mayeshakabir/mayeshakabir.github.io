@@ -9,6 +9,12 @@ $(document).ready(function(){
      $(this).toggleClass('animated bounce');
   });
 
+  $('.nav').click(function() {
+      var id = $(this).attr('id');
+      $('html, body').animate({
+          scrollTop: ($('.' + id).offset().top)
+      });
+  });
 
   /*
   //use for loop
