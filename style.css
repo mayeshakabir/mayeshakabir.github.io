@@ -111,12 +111,14 @@ body{
 }
 */
 
-
+/* about */
+.about {
+	text-align: center;
+}
 
 /* title */
 .title {
 	padding-top: 160px;
-	text-align: center;
 
 }
 .title-logo {
@@ -125,13 +127,9 @@ body{
 
 
 
-/* about */
-.about-title {
-	text-align: center;
-}
+/* me */
 
-.about {
-	text-align: center;
+.me {
 	line-height: 170%;
 	padding: 50px;
 }
