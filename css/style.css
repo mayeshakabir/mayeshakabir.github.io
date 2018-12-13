@@ -1,25 +1,15 @@
 
-body{
+body {
 	margin: 0;
- 	background: #ffffff;
- 	background-image: url("img/background.png");
+ 	background-image: url("../img/background.png");
  	background-attachment: fixed;
  	background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.wrap {
-	width: 95%;
-	margin: 0 auto;
-}
-
+/* header */
 .header {
-    top: 0;
-    width: 100%;
-    opacity: 1;
-    background-color: rgba(0,0,0,0.1);
-    position: fixed;
-    z-index: 2;
+    background-color: rgba(0,0,0,0.3);
 }
 .header-text {
 	font-weight: lighter;
@@ -27,79 +17,141 @@ body{
 }
 .header-logo {
 	height: 25px;
-	padding-top: 10px;
 }
+
+/* footer */
 .footer {
+	text-align: center;
+	padding: 60px;
     bottom: 0;
-    width: 100%;
     opacity: 1;
-    background-color: rgba(0,0,0,0.1);
-    height: 56px;
+    z-index: 2;
 }
 .footer-text {
-	font-family:'Trebuchet MS',sans-serif;
 	font-weight: lighter;
     font-size: 12px;
-    opacity: 0.5;
-    padding-top: 20px;
-    padding-left: 10px;
-    float: left;
-}
-.footer-logo {
-	padding-top: 15px;
-	height: 25px;
-}
-.nav {
-	float: right;
-}
-.logo {
-	float: left;
-}
-li {
-	list-style: none;
-	float: left;
-	margin-left: 30px;
-	padding-bottom: 11px;
 }
 .linkImg {
-	opacity: 0.5;
-	height: 25px;
+	height: 45px;
 	transition: .3s ease;
+	padding: 10px;
+  	opacity: 0.6;
 }
 .linkImg:hover{
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
-.title {
-	margin: 100px;
-	text-align: center;
+.footer {
+	/*background-color: rgba(0,0,0,0.1);*/
 }
+.footer hr {
+	max-width: 400px;
+	background-color: #99cccc;
+	height: 1px;
+	border: none;
+}
+
+/*--- iOS Landing Page Fix --*/
+.home-inner {
+	background-image: url("../img/pic2.jpg");
+	/* opacity: 0.5; */
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 30%;
+	z-index: 1;
+	color: grey;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/* about */
 .title-logo {
-	height: 100px;
-	padding-top: 10px;
+	width: 175px;
 }
 
-.container {
-	max-width: 600px;
-	padding: 40px;
-	margin: 0 auto;
-	display:table;
-}
-.about {
-	text-align: center;
+.me {
 	line-height: 170%;
+	padding: 30px;
 }
 
 
-.portfolio-title {
-	padding-top: 80px;
-	text-align: center;
+
+/* portfolio */
+#portfolio {
+	margin: 0 auto;
+    max-width: 600px;
+    padding: 50px;
+}
+
+.experience {
+	line-height: 130%;
+	padding-top: 35px;
+}
+
+.development {
+	line-height: 130%;
+	padding-top: 35px;
+}
+
+.design {
+	line-height: 130%;
+	padding-top: 35px;
+}
+
+.project {
+  margin-bottom: 24px;
+  display: table;
+}
+
+.project-pic {
+	vertical-align:middle;
+    display:table-cell;
+    width: 25%;
+}
+
+.project-text {
+	vertical-align: middle;
+    display:table-cell;
+    padding-left: 20px;
+    width: 75%;
 }
 
 .icon {
 	width: 130px;
 	transition: .3s ease;
-	border-radius: 15px;
+
 }
 .icon:hover {
 	opacity: 0.7;
@@ -116,117 +168,9 @@ li {
 }
 
 
-.games {
-	line-height: 130%;
-	padding-bottom: 50px;
-}
-#game1-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-#game1-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
-#game2-pic {
-	height: 130px;
-	vertical-align:middle;
-    display:table-cell;
-}
-#game2-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
-.apps {
-	line-height: 130%;
-	padding-bottom: 50px;
-
-}
-#app1-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-#app1-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
-#app2-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#app2-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-#app3-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#app3-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
 
 
 
-.design {
-	line-height: 130%;
-	padding-bottom: 50px;
-}
-#des1-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#des1-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
-#des2-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#des2-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-#des3-pic {
-	vertical-align:middle;
-    display:table-cell;
-}
-
-#des3-text {
-	vertical-align: middle;
-    display: table-cell;
-    padding-left: 20px;
-}
-
-@font-face {
-    font-family: 'pixel';
-    src: url(fonts/OurQuinny.ttf);
-}
-
-h1 {
-	font-family:'pixel',sans-serif;
-	font-size: 30px;
-	font-weight: lighter;
-	padding-top: 100px;
-	letter-spacing: 10px;
-}
 
 h2 {
 	font-family:'pixel',sans-serif;
@@ -237,49 +181,44 @@ h2 {
 	color: #ff6600;
 }
 
-h3 {
-	font-family:'pixel',sans-serif;
-	font-size: 17px;
+.myFont h3 {
+	font-family:'Trebuchet MS',sans-serif;
+	font-size: 14px;
 	font-weight: lighter;
 	letter-spacing: 3px;
 	transition: .3s ease;
 }
-h3:hover {
+.myFont h3:hover {
 	opacity: 0.4;
 }
-h3.dotted {
-	border-bottom: thin dotted #ff6600;
+.myFont h3.dotted {
+	border-bottom: thin dotted #fd7f7c;
 }
 
-h4 {
+.myFont h4 {
 	font-family:'Trebuchet MS',sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 3px;
 	display: inline;
-	color: orange;
+	color: #99cccc;
 }
-h5 {
-	font-family:'Trebuchet MS',sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	display: inline
+.myFont h5 {
+	font-size: 10px;
+	font-weight: lighter;
+	display: inline;
+	padding-top: 25px;
 }
 
 p {
-	font-family:'Trebuchet MS',sans-serif;
 	font-size: 13px;
-	display: inline
+	display: inline;
 }
 
-a {
-	text-decoration: none;
-	font-family:'Trebuchet MS',sans-serif;
-	font-weight: lighter;
-    font-size: 12px;
-    opacity: 0.6;
-    color: grey;
+.myFont a {
+  color: #99cccc;
 }
+
 a:hover{
 	opacity: 1;
 }
