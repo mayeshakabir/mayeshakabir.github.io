@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 	</head>
 
 	<body>
@@ -21,10 +22,10 @@
 			</button>
 			<div class="header-text collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link" id="about" href="#">about</a> </li> 
-					<li class="nav-item"> <a class="nav-link" id="experience" href="#">experience</a> </li>
-					<li class="nav-item"> <a class="nav-link" id="development" href="#">development</a> </li>
-					<li class="nav-item"> <a class="nav-link" id="design" href="#">design</a> </li>
+					<li class="nav-item"> <a class="nav-link link" id="about" href="#">about</a> </li> 
+					<li class="nav-item"> <a class="nav-link link" id="experience" href="#">experience</a> </li>
+					<li class="nav-item"> <a class="nav-link link" id="development" href="#">development</a> </li>
+					<li class="nav-item"> <a class="nav-link link" id="design" href="#">design</a> </li>
 				</ul>
 			</div>
 		</div> 
@@ -46,7 +47,7 @@
 					<br>
 					<p> 
 					I'm currently a 3rd year <b>CPSC</b> student @ UBC<br>
-					my interests lie in <b>code</b> & <a href="map/myMap/map.html" target="_blank">travel</a> 🌎<br>
+					my interests lie in <b>code</b> & <a class="link" id="travels" href="#">travel</a> 🌎<br>
 					status: <i>seeking 2019 summer internship</i>
 					</p>
 				</div>
@@ -207,6 +208,14 @@
 			</div>
 		</div>
 
+		<!-- js map -->
+		<div class="travels" id="travels">
+			<div class="myFont">
+				<h3 class="dotted"> <b>W</b>HERE I'VE BEEN SO FAR... </h3>
+			</div>
+			<div id="mapdiv" style="width: 100%; height: 400px;"></div>
+		</div>
+		
 
 	    <!-- Footer -->
 	    <footer class="footer">
@@ -242,5 +251,10 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+		<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+		<script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+		<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+		<script src="js/map.js"></script>
 	</body>
 </html>

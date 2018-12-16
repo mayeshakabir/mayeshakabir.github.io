@@ -96,6 +96,13 @@ body {
   will-change: transform;
 }
 
+.travels {
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	background-color: rgba(0,0,0,0.1);
+}
+
 /* about */
 .title-logo {
 	width: 175px;
@@ -111,7 +118,7 @@ body {
 /* portfolio */
 #portfolio {
 	margin: 0 auto;
-    max-width: 600px;
+    max-width: 700px;
     padding: 50px;
 }
 

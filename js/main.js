@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('.nav-link').click(function() {
+  $('.link').click(function() {
       var id = $(this).attr('id');
       $('html, body').animate({
           scrollTop: ($('.' + id).offset().top)
