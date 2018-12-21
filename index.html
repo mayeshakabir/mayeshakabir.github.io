@@ -1,260 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="shortcut icon" type="img/png" href="img/favicon.png">
-		<meta charset="UTF-8">
-		<title> Mayesha Kabir </title>
+<head>
+	<link rel="shortcut icon" type="img/png" href="img/favicon.png">
+	<meta charset="UTF-8">
+	<title> Mayesha Kabir </title>
 
-		<!-- css -->
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
-	</head>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+</head>
 
-	<body>
-		<!-- navigation -->
-		<nav class="header navbar navbar-expand-md navbar-light sticky-top">
-		<div class="container-fluid"> 
-			<a class="navbar-brand" href="#"> <img src="img/logo.gif" class="header-logo"> </a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="header-text collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link link" id="about" href="#">about</a> </li> 
-					<li class="nav-item"> <a class="nav-link link" id="experience" href="#">experience</a> </li>
-					<li class="nav-item"> <a class="nav-link link" id="development" href="#">development</a> </li>
-					<li class="nav-item"> <a class="nav-link link" id="design" href="#">design</a> </li>
-				</ul>
-			</div>
-		</div> 
-		</nav>
+<body>
+	<!-- navigation -->
+	<nav class="header navbar navbar-expand-md navbar-light sticky-top">
+	<div class="container-fluid"> 
+		<a class="navbar-brand" href="#"> <img src="img/logo.gif" class="header-logo"> </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="header-text collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"> <a class="nav-link link" id="about" href="#">about</a> </li> 
+				<li class="nav-item"> <a class="nav-link link" id="portfolio" href="#">portfolio</a> </li>
+				<li class="nav-item"> <a class="nav-link link" id="travels" href="#">travels</a> </li>
+			</ul>
+		</div>
+	</div> 
+	</nav>
 
-		<!-- landing page & about -->
-		<div class="landing about" id="about"> 
-			<div class="home-wrap">
-				<div class="home-inner">
-					
-				</div>
+	<!-- landing page & about -->
+	<div class="landing about" id="about"> 
+		<div class="landing-overlay"> </div>
+		<div class="home-wrap">
+			<div class="home-inner"></div>
+		</div>
+	</div>
+	<div class="caption center-block text-center">
+		<div class="about" id="about">
+			<img src="img/me1.png" class="title-logo">
+			<div class="me">
+				<h3 class="typewrite" data-period="2000" data-type='[ "Hi, im Mayesha!👋", "Welcome to my website :)" ]'></h3>
+				<br>
+				<p> 
+				I'm currently a 3rd year <b>CPSC</b> student @ UBC<br>
+				my interests lie in <b>code</b> & <a class="link" id="travels" href="#">travel</a> 🌎<br>
+				status: <i>seeking 2019 summer internship</i>
+				</p>
 			</div>
 		</div>
-		<div class="caption center-block text-center">
-			<div class="about" id="about">
-				<img src="img/me1.png" class="title-logo">
-				<div class="me">
-					<h3 class="typewrite" data-period="2000" data-type='[ "Hi, im Mayesha!👋", "Welcome to my website :)" ]'></h3>
-					<br>
-					<p> 
-					I'm currently a 3rd year <b>CPSC</b> student @ UBC<br>
-					my interests lie in <b>code</b> & <a class="link" id="travels" href="#">travel</a> 🌎<br>
-					status: <i>seeking 2019 summer internship</i>
-					</p>
-				</div>
-			</div>
-			<a class="btn btn-outline-light" href="#about"> View My Projects! </a>
-		</div>
-		<!-- old about page -->
-		<!--
-		<div class="container">
-			<div class="about" id="about">
-				<img src="img/me2.png" class="title-logo">
-				<div class="me">
-					<h3 class="typewrite" data-period="2000" data-type='[ "Hi, im Mayesha!👋", "Welcome to my website :)" ]'></h3>
-					<br>
-					<p> 
-					I'm currently a 3rd year <b>CPSC</b> student @ UBC<br>
-					my interests lie in <b>code</b> & <a href="map/myMap/map.html" target="_blank">travel</a> 🌎<br>
-					status: <i>seeking 2019 summer internship</i>
-					</p>
-				</div>
-			</div>
-		</div>
-		-->
+		<a class="btn btn-outline-light" href="#about"> View My Projects! </a>
+	</div>
 
-		<!-- portfolio -->
-		<div class="container-fluid">
-			<div id="portfolio" class="myFont">
-				<div class="experience" id="experience">
-					<h3  class="dotted"> <b>W</b>ORK-EXPERIENCE: </h3>
-					
-					<div class="project">
-						<div id="exp1-pic" class="project-img">
-							<img src="img/bbi-icon.png" class="icon">
-						</div>
-						<div id="exp1-text" class="project-text">
-							<h4> Blackbird Interactive </h4> <br>
-							<p>Implemented <a href="https://www.gamasutra.com/view/news/125213/Opinion_Balance_and_Flow_Maps.php" target="_blank"> heat map</a> system which provides location-based information of events & interactions in the game world for AI applications. </p> <br>
-							<h5> tools: C#, Unity3D </h5>
-							<a href="https://blackbirdinteractive.com" target="_blank"> 
-								<img class="iconImg" src="img/links/zoom.png"> 
-							</a>
-						</div>
-					</div>
-					
-					<div class="project">
-						<div id="exp2-pic" class="project-img">
-							<img src="img/esg-icon.png" class="icon">
-						</div>
-						<div id="exp2-text" class="project-text">
-							<h4> East Side Games </h4> <br>
-							<p>Developed a tool tips system that allow designers to easily add & edit tips for various game tools in any web page<br>
-							Created monthly scheduling tools to enable quick promotions & contests scheduling</p> <br>
-							<h5> tools: PHP, HTML/CSS, Javascript, Actionscript3  </h5>
-							<a href="http://www.eastsidegames.com" target="_blank"> 
-								<img class="iconImg" src="img/links/zoom.png"> 
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="development" id="development">
-					<h3 class="dotted"> <b>D</b>EVELOPMENT: </h3>
-					
-					<div class="project">
-						<div id="game1-pic" class="project-img">
-							<img src="img/game-icon.png" class="icon"> 
-						</div>
-						<div id="game1-text" class="project-text">
-							<h4> Jewel Thief </h4> <br>
-							<p>Fly through the skies collecting jewels while avoiding enemies chucking bombs directly at you!</p> <br>
-							<h5> tools: C#, Unity3D</h5>
-							<a href="img/jewelthief.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
-							<a href="https://github.com/mayeshakabir/JewelThief" target="_blank"> <img class="iconImg" src="img/links/github.png"> </a>
-							<a href="https://mayeshakabir.itch.io/jewel-thief?secret=dbVWuQZnv3BG203JfCQqZhZL5E"  target="_blank"> 
-								<img class="iconImg" src="img/links/play.png"> 
-							</a> 
-						</div>
-					</div>
-
-					<div class="project">
-						<div id="game2-pic" class="project-img">
-							<img src="img/game2-icon.png" class="icon"> 
-						</div>
-						<div id="game2-text" class="project-text">
-							<h4> I Die, You Die </h4> <br>
-							<p>Two-Player co-op game in which you jump from platform to platform dodging snowballs & icicles whilst trying not to fall! If one dies you both die!</p> <br>
-							<h5> tools: C#, Unity3D</h5>
-							<a href="img/idieyoudie.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
-							<a href="https://github.com/mayeshakabir/HackDayGame" target="_blank"> <img class="iconImg" src="img/links/github.png"> </a> 
-							<a href="https://mayeshakabir.itch.io/i-die-you-die?secret=wbukQp58VYbsuhxusJNKudC4" target="_blank"> 
-								<img class="iconImg" src="img/links/play.png"> 
-							</a> 
-						</div>
-					</div>
-					
-					<div class="project">
-						<div id="app1-pic" class="project-img">
-							<img src="img/busesRus-icon1.png" class="icon"> 
-						</div>
-						<div id="app1-text" class="project-text">
-							<h4> Buses'R Us </h4> <br>
-							<p>An andriod app that tracks user location along with surrounding bus stops, closet marked in green. Selecting a stop will display the bus number & arrival times along with the different bus routes</p> <br>
-							<h5> tools: Java, JUnit, IntelliJ </h5>
-							<a href="img/busesRus.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
-							<a href="https://github.com/mayeshakabir/busesRus" target="_blank"> 
-								<img class="iconImg" src="img/links/github.png"> 
-							</a> 
-						</div>
-					</div>
-
-					<div class="project">
-						<div id="app2-pic" class="project-img">
-							<img src="img/addMe-icon1.png" class="icon">
-						</div>
-						<div id="app2-text" class="project-text">
-							<h4> AddMe </h4> <br>
-							<p>An andriod app designed to eliminate the need to switch social media platforms by encompassing them in a single, easily accessible app</p> <br>
-							<h5> tools: Java, Andriod Studio </h5>
-							<a href="img/addMe.png" data-lightbox="pictures" target="_blank"> <img class="iconImg" src="img/links/zoom.png"> </a>
-							<a href="https://github.com/mayeshakabir/AddMe" target="_blank"> 
-								<img class="iconImg" src="img/links/github.png"> 
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="design" id="design">
-					<h3  class="dotted"> <b>D</b>ESIGN: </h3>
-					
-					<div class="project">
-						<div id="des1-pic" class="project-img">
-							<img src="img/infograph-icon.png" class="icon">
-						</div>
-						<div id="des1-text" class="project-text">
-							<h4>Soccer Infograph</h4> <br>
-							<p>Infograph on the 2014 World Cup Brazil displaying notable players, teams, prize money and budget</p> <br>
-							<h5> tools: Adobe Photoshop, Adobe Illustrator </h5>
-							<a href="img/infograph.png" data-lightbox="pictures" target="_blank"> 
-								<img class="iconImg" src="img/links/zoom.png"> 
-							</a>
-						</div>
-					</div>
-					
-					<div class="project">
-						<div id="des2-pic" class="project-img">
-							<img src="img/bookcover-icon.png" class="icon">
-						</div>
-						<div id="des2-text" class="project-text">
-							<h4>Book Cover</h4> <br>
-							<p>Designed an alternative book cover design for John Green's An Abundance of Katherines</p> <br>
-							<h5> tools: Adobe Photoshop, Adobe Illustrator  </h5>
-							<a href="img/bookcover.png" data-lightbox="pictures" target="_blank"> 
-								<img class="iconImg" src="img/links/zoom.png"> 
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- js map -->
-		<div class="travels" id="travels">
+	<!-- portfolio -->
+	<div class="container-fluid">
+		<div class="portfolio">
 			<div class="myFont">
-				<h3 class="dotted"> <b>W</b>HERE I'VE BEEN SO FAR... </h3>
+				<div class="row">
+		          	<div class="col-lg-12 text-center">
+		            	<h2 class="section-heading text-uppercase">Portfolio</h2>
+		            	<h5>Compilation from my work experience, personal/academic project developement and design</h5>
+		            	<h3 class="dotted"></h3>
+		            	<br>
+		          	</div>
+	        	</div>
+
+	        	<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/bbi-icon.png" alt="" class="icon">
+							<div class="overlay">
+								<span>
+								<h4> Blackbird Interactive </h4> <br>
+								<p>Created an <a href="https://www.gamasutra.com/view/news/125213/Opinion_Balance_and_Flow_Maps.php" target="_blank"> influence/heat map</a> system which help visualize location-based information in real-time for AI applications </p>
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/esg-icon.png" alt="" class="icon">
+							<div class="overlay">
+								<span>
+								<h4> East Side Games </h4> <br>
+								<p>Developed various web-based client tools, notably a tools tips system and automative scheduler</p>
+								</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/freelist-icon.png" class="icon"> 
+							<div class="overlay">
+								<span>
+								<h4> Freelist </h4> <br>
+								<p>Allows users to easily find free items from Craigslist. Integrated into both a Slack bot & website</p> <br>
+								<h5>tech: JavaScript</h5>
+								<a href="http://github.com/mayeshakabir/freelist" target="_blank"> 
+									<img class="iconImg" src="img/links/github.png"> 
+								</a> 
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/graphics-icon.png" class="icon"> 
+							<div class="overlay">
+								<span>
+								<h4> Graphics </h4> <br>
+								<p>Miscellaneous computer graphics projects done throughout the course</p> <br>
+								<h5>tech: JavaScript, GLSL</h5>
+								<a href="http://github.com/mayeshakabir/cpsc-graphics-proj" target="_blank"> 
+									<img class="iconImg" src="img/links/github.png"> 
+								</a> 
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/jewelthief-icon.png" class="icon"> 
+							<div class="overlay">
+								<span>
+								<h4> Jewel Thief </h4> <br>
+								<p>Fly through the skies collecting jewels while avoiding enemies chucking bombs directly at you!</p> <br>
+								<h5>tech: C#, Unity3D</h5>
+								<a href="https://mayeshakabir.itch.io/jewel-thief?secret=dbVWuQZnv3BG203JfCQqZhZL5E"  target="_blank"> 
+									<img class="iconImg" src="img/links/play.png"> 
+								</a> 
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/idieyoudie-icon.png" class="icon"> 
+							<div class="overlay">
+								<span>
+								<h4> I Die, You Die </h4> <br>
+								<p>Two-Player co-op game in which you jump from platform to platform dodging snowballs & icicles. If player dies you both die!</p> <br>
+								<h5>tech: C#, Unity3D</h5>
+								<a href="https://mayeshakabir.itch.io/i-die-you-die?secret=wbukQp58VYbsuhxusJNKudC4" target="_blank"> 
+									<img class="iconImg" src="img/links/play.png"> 
+								</a> 
+								</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/busesRus-icon.png" class="icon"> 
+							<div class="overlay">
+								<span>
+								<h4> Buses'R Us </h4> <br>
+								<p>Tracks user location along with nearby bus stops. Selecting a stop displays all bus numbers, arrival times along with all different routes</p> <br>
+								<h5>tech: Java, JUnit, IntelliJ </h5>
+								<a href="https://github.com/mayeshakabir/busesRus" target="_blank"> 
+									<img class="iconImg" src="img/links/github.png"> 
+								</a> 
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/addMe-icon.png" class="icon">
+							<div class="overlay">
+								<span>
+								<h4> AddMe </h4> <br>
+								<p>An andriod app designed to eliminate the need to switch social media platforms by encompassing them in a single, easily accessible app</p> <br>
+								<h5>tech: Java, Andriod Studio </h5>
+								<a href="https://github.com/mayeshakabir/AddMe" target="_blank"> 
+									<img class="iconImg" src="img/links/github.png"> 
+								</a>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/infograph-icon.png" class="icon">
+							<div class="overlay">
+								<span>
+								<h4>Soccer Infograph</h4> <br>
+								<p>Infograph on the 2014 World Cup Brazil displaying notable players, teams, prize money and budget</p> <br>
+								<h5>tech: Photoshop, Illustrator </h5>
+								<a href="img/infograph.png" data-lightbox="pictures" target="_blank"> 
+									<img class="iconImg" src="img/links/zoom.png"> 
+								</a>
+								</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-4">
+						<div class="project">
+							<img src="img/bookcover-icon.png" class="icon">
+							<div class="overlay">
+								<span>
+								<h4>Book Cover</h4> <br>
+								<p>Designed an alternative book cover design for John Green's An Abundance of Katherines</p> <br>
+								<h5>tech: Photoshop, Illustrator  </h5>
+								<a href="img/bookcover.png" data-lightbox="pictures" target="_blank"> 
+									<img class="iconImg" src="img/links/zoom.png"> 
+								</a>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+		</div>
+	</div>
+
+
+	<!-- js map -->
+	<div class="travels">
+		<div class="myFont">
+			<div class="row">
+	          	<div class="col-lg-12 text-center">
+	            	<h2 class="section-heading text-uppercase">TRAVELS</h2>
+	            	<h5>Markers of places i've been so far...</h5>
+	            	<h3 class="dotted"></h3>
+	            	<br>
+	          	</div>
+		    </div>
 			<div id="mapdiv" style="width: 100%; height: 400px;"></div>
 		</div>
-		
+	</div>
+	
 
-	    <!-- Footer -->
-	    <footer class="footer">
-			<div class="container-fluid footer-text">
-			<div class="typewrite" data-period="2000" data-type='[ "📍Vancouver, BC " ]'></div> 
-			<br>
-			<div class="social d-flex justify-content-center">
-				<a href="https://www.github.com/mayeshakabir" target="_blank"> 
-					<img class="linkImg" src="img/links/github.png"> 
-				</a>
-				<a href="https://www.linkedin.com/in/mayeshakabir/" target="_blank"> 
-					<img class="linkImg" src="img/links/linkedin.png"> 
-				</a>
-				<a href="mailto:mayeshakabir@alumni.ubc.ca" target="_blank"> 
-					<img class="linkImg" src="img/links/mail.png"> 
-				</a>
-				<a href="resume/mayesha-kabir-resume.pdf" target="_blank"> 
-					<img class="linkImg" src="img/links/cv.png"> 
-				</a>
-			</div>
-			<hr>
-			&copy; Mayesha Kabir 2018
-			</div>
-	    </footer>
+    <!-- Footer -->
+    <footer class="footer">
+		<div class="container-fluid footer-text">
+		<div class="typewrite" data-period="2000" data-type='[ "📍Vancouver, BC " ]'></div> 
+		<br>
+		<div class="social d-flex justify-content-center">
+			<a href="https://www.github.com/mayeshakabir" target="_blank"> 
+				<img class="linkImg" src="img/links/github.png"> 
+			</a>
+			<a href="https://www.linkedin.com/in/mayeshakabir/" target="_blank"> 
+				<img class="linkImg" src="img/links/linkedin.png"> 
+			</a>
+			<a href="mailto:mayeshakabir@alumni.ubc.ca" target="_blank"> 
+				<img class="linkImg" src="img/links/mail.png"> 
+			</a>
+			<a href="resume/mayesha-kabir-resume.pdf" target="_blank"> 
+				<img class="linkImg" src="img/links/cv.png"> 
+			</a>
+		</div>
+		<hr>
+		&copy; Mayesha Kabir 2018
+		</div>
+    </footer>
 
-		<!-- scripts -->
-		<script src="js/jquery-3.2.1.min.js"> </script>
-		<script src="js/jquery.waypoints.min.js"> </script>
-		<script src="js/main.js"> </script>
-		<script src="js/typewriter.js"> </script>
-		<script src="js/lightbox.js"> </script>
+	<!-- scripts -->
+	<script src="js/jquery-3.2.1.min.js"> </script>
+	<script src="js/jquery.waypoints.min.js"> </script>
+	<script src="js/main.js"> </script>
+	<script src="js/typewriter.js"> </script>
+	<script src="js/lightbox.js"> </script>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-		<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
-		<script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
-		<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-		<script src="js/map.js"></script>
-	</body>
+	<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+	<script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+	<script src="js/map.js"></script>
+</body>
 </html>

@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   $('.btn').click(function() {
       $('html, body').animate({
-          scrollTop: ($('#portfolio').offset().top)
+          scrollTop: ($('.portfolio').offset().top)
       });
   });
 
