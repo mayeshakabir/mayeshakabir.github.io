@@ -108,7 +108,7 @@
                 },
 
                 areasSettings: {
-                    unlistedAreasColor: "#99cccc"
+                    unlistedAreasColor: "#c9d4f9"
                 },
 
                 imagesSettings: {
