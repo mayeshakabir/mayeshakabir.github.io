@@ -6,7 +6,56 @@
 
                 dataProvider: {
                     map: "worldLow",
-                    images: [{
+                    images: [
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Tokyo",
+                    latitude: 35.68,
+                    longitude: 139.65
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Kawaguchiko",
+                    latitude: 35.49,
+                    longitude: 138.76
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Nara",
+                    latitude: 34.69,
+                    longitude: 135.80
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Osaka",
+                    latitude: 34.7,
+                    longitude: 135.5
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Kyoto",
+                    latitude: 35.01,
+                    longitude: 135.77
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Hamamatsu",
+                    latitude: 34.7,
+                    longitude: 137.73
+              },
+              {
                     svgPath: targetSVG, 
                     zoomLevel:5, 
                     scale:0.5, 
@@ -90,7 +139,24 @@
                     title: "Vancouver",
                     latitude: 49.28,
                     longitude: -123.12
-              }, {
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Whistler",
+                    latitude: 50.1,
+                    longitude: -122.95
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Victoria",
+                    latitude: 48.4,
+                    longitude: -123.4
+              }, 
+              {
                     svgPath: targetSVG, 
                     zoomLevel:5, 
                     scale:0.5, 
