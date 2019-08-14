@@ -32,17 +32,17 @@ body {
     font-size: 12px;
 }
 .linkImg {
-	height: 45px;
+	height: 30px;
 	transition: .3s ease;
-	padding: 10px;
-  	opacity: 0.6;
+	padding: 5px;
+  	opacity: 0.5;
 }
 .linkImg:hover{
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .footer {
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0);
 }
 .footer hr {
 	max-width: 400px;
@@ -124,7 +124,7 @@ body {
 }
 
 .project {
-  	background-color: rgba(0,0,0,0.2);
+  	background-color: rgba(0,0,0,0);
   	position: relative;
 	margin: 20px 1%;
 	height: auto;
@@ -145,7 +145,7 @@ body {
 	left:0;
 	width:100%;
 	height:100%;
-	background:rgb(0,170,170);
+	background: rgb(0,170,170);
 	opacity:0;
 	transition:opacity 500ms ease-in-out;
 }
