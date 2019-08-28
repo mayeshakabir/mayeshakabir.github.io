@@ -121,8 +121,8 @@ body {
 
 .about {
 	padding: 100px;
-	padding-bottom: 0px;
 	margin: 0 auto;
+	background-color: #f5f5f5;
 }
 
 .title-logo {
