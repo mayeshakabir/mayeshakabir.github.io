@@ -1,7 +1,7 @@
 
 body {
 	margin: 0;
- 	background-image: url("../img/background.png");
+ 	/*background-image: url("../img/background.png");*/
  	background-attachment: fixed;
  	background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -26,6 +26,7 @@ body {
     bottom: 0;
     opacity: 1;
     z-index: 2;
+    background-color: #f5f5f5;
 }
 .footer-text {
 	font-weight: lighter;
@@ -35,24 +36,21 @@ body {
 	height: 30px;
 	transition: .3s ease;
 	padding: 5px;
-  	opacity: 0.7;
+  	opacity: 0.5;
 }
 .linkImg:hover{
     opacity: 1;
 }
 
-.footer {
-	background-color: rgba(0,0,0,0);
-}
 .footer hr {
 	max-width: 400px;
-	background-color: #fd7f7c;
+	background-color: #ebc2ed;
 	height: 1px;
 	border: none;
 }
 
 .footer h5 {
-	font-size: 10px;
+	font-size: 8px;
 	font-weight: lighter;
 	display: inline;
 	padding-top: 25px;
@@ -61,7 +59,7 @@ body {
 
 /* landing page and about */
 .home-inner {
-	background-image: url("../img/landing-pic.jpg");
+	/*background-image: url("../img/landing-pic.jpg");*/
 }
 
 .caption {
@@ -78,8 +76,8 @@ body {
   width: 100%;
   height: 100vh;
   display: table;
-  background: #ffffff;
-  opacity: 0.3;
+  background: #738913;
+  opacity: 0.5;
   z-index: -1;
 }
 .landing-overlay {
@@ -114,24 +112,49 @@ body {
 
 
 /* about */
-.title-logo {
-	width: 150px;
-	align-content: left;
+.my-caption h1 {
+	padding-top: 20%;
+	font-size: 50px;
+	font-weight: lighter;
 }
 
-.me {
-	line-height: 170%;
-	padding: 30px;
-	align-content: right;
+
+.about {
+	padding: 100px;
+	padding-bottom: 0px;
+	margin: 0 auto;
 }
+
+.title-logo {
+	width: 150px;
+}
+
+.my-pic {
+}
+
+.my-bio {
+	line-height: 140%;
+}
+
+.my-bio a { 
+	opacity: 1;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.my-bio a:hover{
+	opacity: 0.5;
+}
+
+
+
+
+
 
 
 /* portfolio */
 .experience {
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-bottom: 0px;
-	padding-top: 0px;
+	padding: 100px;
 	margin: 0 auto;
 }
 
@@ -157,7 +180,7 @@ body {
 	left:0;
 	width:100%;
 	height:100%;
-	background: rgb(120,170,170);
+	background: rgba(255,240,245,0.9);
 	opacity:0;
 	transition:opacity 500ms ease-in-out;
 }
@@ -169,7 +192,7 @@ body {
 	top:50%;
 	left:50%;
 	transform: translate(-50%,-50%);
-	color:#fff;
+	color: black;
 }
 .iconImg {
 	opacity: 0.5;
@@ -183,14 +206,6 @@ body {
 }
 
 
-/* travel map */
-.travels {
-	margin: 0 auto;
-	text-align: center;
-	padding: 50px;
-	background-color: rgba(255,255,255,1);
-}
-
 
 /* my fonts */
 .myFont h2 {
@@ -198,7 +213,7 @@ body {
 	font-weight: lighter;
 	letter-spacing: 3px;
 	transition: .3s ease;
-	color: #B399EE;
+	color: #9dc183;
 }
 
 .myFont h3 {
@@ -212,7 +227,7 @@ body {
 	opacity: 0.4;
 }
 .myFont h3.dotted {
-	border-bottom: thin dotted #fd7f7c;
+	border-bottom: thin dotted #ebc2ed;
 }
 
 .myFont h4 {
@@ -231,7 +246,7 @@ body {
 }
 
 p {
-	font-size: 13px;
+	font-size: 11px;
 	display: inline;
 }
 
@@ -243,13 +258,54 @@ a:hover{
 	opacity: 1;
 }
 
-.me a { 
-	color: #000000 !important;
-	opacity: 1;
-	font-style: italic;
-	text-decoration: underline;
+
+
+/* travel map */
+.travels {
+	margin: 0 auto;
+	padding: 100px;
+	background-color: rgba(255,255,255,1);
 }
 
-.me a:hover{
-	opacity: 0.5;
+
+
+/* travel */
+.travel-photos {
+	padding-bottom: 100px;
+}
+
+.travel-photo {
+  	background-color: rgba(0,0,0,0);
+  	position: relative;
+	margin: 20px 1%;
+	height: auto;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.travel-photo img {
+	position: relative;
+	display: block;
+	min-height: auto;
+	max-width: 100%;
+}
+.travel-photos .overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: rgb(120,170,170);
+	opacity:0;
+	transition:opacity 500ms ease-in-out;
+}
+.travel-photos:hover .overlay{
+	opacity:1;
+}
+.travel-photos span {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:#fff;
 }
