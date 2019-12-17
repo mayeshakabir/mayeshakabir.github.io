@@ -209,6 +209,7 @@ body {
 
 /* my fonts */
 .myFont h2 {
+	font-weight: lighter;
 	font-size: 36px;
 	font-weight: lighter;
 	letter-spacing: 3px;
@@ -217,7 +218,7 @@ body {
 }
 
 .myFont h3 {
-	font-family:'Trebuchet MS',sans-serif;
+	font-family:'Menlo',sans-serif;
 	font-size: 14px;
 	font-weight: lighter;
 	letter-spacing: 3px;
@@ -231,9 +232,7 @@ body {
 }
 
 .myFont h4 {
-	font-family:'Trebuchet MS',sans-serif;
 	font-size: 14px;
-	font-weight: bold;
 	letter-spacing: 3px;
 	display: inline;
 	color: #99cccc;
@@ -248,6 +247,7 @@ body {
 p {
 	font-size: 11px;
 	display: inline;
+	font-family:'Menlo',sans-serif;
 }
 
 .myFont a {
