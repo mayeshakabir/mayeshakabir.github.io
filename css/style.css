@@ -44,7 +44,7 @@ body {
 
 .footer hr {
 	max-width: 400px;
-	background-color: #ebc2ed;
+	background-color: #D21F3C;
 	height: 1px;
 	border: none;
 }
@@ -59,7 +59,7 @@ body {
 
 /* landing page and about */
 .home-inner {
-	/*background-image: url("../img/landing-pic.jpg");*/
+	background-image: url("../img/landing-pic.png");
 }
 
 .caption {
@@ -213,7 +213,7 @@ body {
 	font-weight: lighter;
 	letter-spacing: 3px;
 	transition: .3s ease;
-	color: #9dc183;
+	color: #D21F3C;
 }
 
 .myFont h3 {
@@ -251,7 +251,7 @@ p {
 }
 
 .myFont a {
-  color: #99cccc;
+  color: #FF676D;
 }
 
 a:hover{

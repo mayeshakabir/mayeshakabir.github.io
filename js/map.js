@@ -11,6 +11,22 @@
                     svgPath: targetSVG, 
                     zoomLevel:5, 
                     scale:0.5, 
+                    title: "Toronto",
+                    latitude: 43.6,
+                    longitude: -79.3
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
+                    title: "Waterloo",
+                    latitude: 43.46,
+                    longitude: -80.5
+              },
+              {
+                    svgPath: targetSVG, 
+                    zoomLevel:5, 
+                    scale:0.5, 
                     title: "Tokyo",
                     latitude: 35.68,
                     longitude: 139.65
@@ -160,7 +176,7 @@
                     svgPath: targetSVG, 
                     zoomLevel:5, 
                     scale:0.5, 
-                    title: "Calcutta",
+                    title: "Kolkata",
                     latitude: 22.57,
                     longitude: 88.37
               }, {
