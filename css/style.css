@@ -44,7 +44,7 @@ body {
 
 .footer hr {
 	max-width: 400px;
-	background-color: #D21F3C;
+	background-color: #FF676D;
 	height: 1px;
 	border: none;
 }
@@ -59,7 +59,7 @@ body {
 
 /* landing page and about */
 .home-inner {
-	background-image: url("../img/landing-pic.png");
+	background-image: url("../img/landing-pic.jpeg");
 }
 
 .caption {
@@ -214,7 +214,7 @@ body {
 	font-weight: lighter;
 	letter-spacing: 3px;
 	transition: .3s ease;
-	color: #D21F3C;
+	color: #FF676D;
 }
 
 .myFont h3 {
