@@ -3,10 +3,16 @@ body {
 	background: #f2f2f2;
 }
 
+/* old main without games
 .main {
 	max-width: 500px;
 	margin: 100px auto 0;
 	padding: 20px;
+}
+*/
+.main {
+	max-width: 635px;
+	margin: 100px auto 0;
 }
 
 .links {
