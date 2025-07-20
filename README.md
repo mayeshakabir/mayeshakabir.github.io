@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Mayesha Kabir - Personal Portfolio
+
+A React-based personal portfolio website showcasing my work experience, projects, and game development portfolio.
+
+## Live Site
+Visit: [https://mayeshakabir.github.io](https://mayeshakabir.github.io)
+
+## About
+This portfolio features:
+- Professional experience at Lattice, Amazon, Hootsuite, and more
+- Links to GitHub, LinkedIn, Medium, and other professional profiles
+- Game development projects hosted on itch.io
+- Clean, minimalist design
 ## Available Scripts
 
 In the project directory, you can run:
