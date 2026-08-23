@@ -31,6 +31,7 @@ function App() {
       }}
     >
       <Paper
+        elevation={0}
         sx={{
           width: "100%",
           borderRadius: "8px",
@@ -171,42 +172,6 @@ function App() {
                 <Email />
               </IconButton>
             </Tooltip>
-          </Box>
-
-          <Box sx={{ textAlign: "center", mb: 3 }}>
-            <iframe
-              title="Jewel Thief"
-              frameBorder="0"
-              src="https://itch.io/embed/198640?bg_color=f2f2f2&amp;link_color=8080ff&amp;border_color=f2f2f2"
-              width="208"
-              height="167"
-            >
-              <a href="https://mayesha.itch.io/jewel-thief">
-                Jewel Thief by mayesha's games
-              </a>
-            </iframe>
-            <iframe
-              title="Pre-Veal"
-              frameBorder="0"
-              src="https://itch.io/embed/570447?bg_color=f2f2f2&amp;link_color=8080ff&amp;border_color=f2f2f2"
-              width="208"
-              height="167"
-            >
-              <a href="https://mayesha.itch.io/pre-veal">
-                Pre-Veal by mayesha's games
-              </a>
-            </iframe>
-            <iframe
-              title="I Die You Die"
-              frameBorder="0"
-              src="https://itch.io/embed/200080?bg_color=f2f2f2&amp;link_color=8080ff&amp;border_color=f2f2f2"
-              width="208"
-              height="167"
-            >
-              <a href="https://mayesha.itch.io/i-die-you-die">
-                I Die You Die by mayesha's games
-              </a>
-            </iframe>
           </Box>
 
           <Box sx={{ textAlign: "center" }}>
