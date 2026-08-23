@@ -51,7 +51,12 @@ function App() {
                 href="https://www.lattice.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                sx={{ color: "#7f7f7f" }}
+                sx={{
+                  color: "#7f7f7f",
+                  "&:hover": {
+                    backgroundColor: "#fce4ec",
+                  },
+                }}
               >
                 Lattice
               </Link>
@@ -66,7 +71,12 @@ function App() {
                 href="https://www.amazon.com/b?ie=UTF8&node=18021383011"
                 target="_blank"
                 rel="noopener noreferrer"
-                sx={{ color: "#7f7f7f" }}
+                sx={{
+                  color: "#7f7f7f",
+                  "&:hover": {
+                    backgroundColor: "#fce4ec",
+                  },
+                }}
               >
                 Amazon
               </Link>{" "}
@@ -75,7 +85,12 @@ function App() {
                 href="https://hootsuite.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                sx={{ color: "#7f7f7f" }}
+                sx={{
+                  color: "#7f7f7f",
+                  "&:hover": {
+                    backgroundColor: "#fce4ec",
+                  },
+                }}
               >
                 Hootsuite
               </Link>
@@ -84,7 +99,12 @@ function App() {
                 href="https://blackbirdinteractive.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                sx={{ color: "#7f7f7f" }}
+                sx={{
+                  color: "#7f7f7f",
+                  "&:hover": {
+                    backgroundColor: "#fce4ec",
+                  },
+                }}
               >
                 Blackbird Interactive
               </Link>{" "}
@@ -93,7 +113,12 @@ function App() {
                 href="https://www.eastsidegames.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                sx={{ color: "#7f7f7f" }}
+                sx={{
+                  color: "#7f7f7f",
+                  "&:hover": {
+                    backgroundColor: "#fce4ec",
+                  },
+                }}
               >
                 East Side Games
               </Link>
@@ -102,16 +127,6 @@ function App() {
           </Box>
 
           <Box sx={{ textAlign: "center", mb: 2 }}>
-            <Tooltip title="Resume">
-              <IconButton
-                href="/resume/mayesha-kabir-resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                sx={{ fontSize: "1rem", color: "#d5b8d2" }}
-              >
-                <Description />
-              </IconButton>
-            </Tooltip>
             <Tooltip title="GitHub">
               <IconButton
                 href="http://www.github.com/mayeshakabir"
@@ -119,7 +134,14 @@ function App() {
                 rel="noopener noreferrer"
                 sx={{ fontSize: "1rem", color: "#d5b8d2" }}
               >
-                <GitHub />
+                <img
+                  src="img/github.png"
+                  alt="github"
+                  style={{
+                    width: "28px",
+                    height: "28px",
+                  }}
+                />
               </IconButton>
             </Tooltip>
             <Tooltip title="LinkedIn">
@@ -129,17 +151,14 @@ function App() {
                 rel="noopener noreferrer"
                 sx={{ fontSize: "1rem", color: "#d5b8d2" }}
               >
-                <LinkedIn />
-              </IconButton>
-            </Tooltip>
-            <Tooltip title="Medium">
-              <IconButton
-                href="https://medium.com/@mayesha.kabir"
-                target="_blank"
-                rel="noopener noreferrer"
-                sx={{ fontSize: "1rem", color: "#d5b8d2" }}
-              >
-                <Article />
+                <img
+                  src="img/linkedin.png"
+                  alt="linkedin"
+                  style={{
+                    width: "28px",
+                    height: "28px",
+                  }}
+                />
               </IconButton>
             </Tooltip>
             <Tooltip title="Itch.io">
@@ -149,17 +168,31 @@ function App() {
                 rel="noopener noreferrer"
                 sx={{ fontSize: "1rem", color: "#d5b8d2" }}
               >
-                <SportsEsports />
+                <img
+                  src="img/itch.png"
+                  alt="itch"
+                  style={{
+                    width: "28px",
+                    height: "28px",
+                  }}
+                />
               </IconButton>
             </Tooltip>
-            <Tooltip title="Devpost">
+            <Tooltip title="Resume">
               <IconButton
-                href="https://devpost.com/mayeshak"
+                href="/resume/mayesha-kabir-resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 sx={{ fontSize: "1rem", color: "#d5b8d2" }}
               >
-                <Code />
+                <img
+                  src="img/resume.png"
+                  alt="resume"
+                  style={{
+                    width: "28px",
+                    height: "28px",
+                  }}
+                />
               </IconButton>
             </Tooltip>
             <Tooltip title="Email">
@@ -169,7 +202,48 @@ function App() {
                 rel="noopener noreferrer"
                 sx={{ fontSize: "1rem", color: "#d5b8d2" }}
               >
-                <Email />
+                <img
+                  src="img/email.png"
+                  alt="email"
+                  style={{
+                    width: "28px",
+                    height: "28px",
+                  }}
+                />
+              </IconButton>
+            </Tooltip>
+            <Tooltip title="Medium">
+              <IconButton
+                href="https://medium.com/@mayesha.kabir"
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{ fontSize: "1rem", color: "#d5b8d2" }}
+              >
+                <img
+                  src="img/medium.png"
+                  alt="medium"
+                  style={{
+                    width: "28px",
+                    height: "28px",
+                  }}
+                />
+              </IconButton>
+            </Tooltip>
+            <Tooltip title="Devpost">
+              <IconButton
+                href="https://devpost.com/mayeshak"
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{ fontSize: "1rem", color: "#d5b8d2" }}
+              >
+                <img
+                  src="img/devpost.png"
+                  alt="devpost"
+                  style={{
+                    width: "28px",
+                    height: "28px",
+                  }}
+                />
               </IconButton>
             </Tooltip>
           </Box>
